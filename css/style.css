@@ -10,11 +10,23 @@
 main{
     font-family: 'Rubik Mono One', sans-serif;
 }
+nav, ul{
+    list-style-type: none;
+    display: inline-block;
+}
 
-.scarpa1{
+.scarpa1, .scarpa2, .scarpa3{
     position: relative;
     height: 100vh;
-    background-color: red;
+}
+.scarpa1{
+    background-color: rgb(175, 17, 17);
+}
+.scarpa2{
+    background-color: rgb(25, 99, 31);
+}
+.scarpa3{
+    background-color: rgb(202, 200, 57);
 }
 
 img, p{
@@ -22,16 +34,31 @@ img, p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 450px;
 }
-.scarpa1 img{
-    object-fit: cover;
-    height: 290px;
+.scarpa1, .scarpa2, .scarpa3, img{
+   
 }
 p{
     color: rgb(238, 255, 1);
     margin-top: 165px;
     text-align: center;
     font-size: 27px;
-    
+
 }
 
+li{
+    border-radius: 50px;
+    background-color: white;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+
+}
+
+.cont{
+    margin-left: 90%;
+}
