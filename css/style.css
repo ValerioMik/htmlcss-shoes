@@ -1,8 +1,7 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 /* main */
@@ -36,9 +35,7 @@ img, p{
     transform: translate(-50%, -50%);
     width: 450px;
 }
-.scarpa1, .scarpa2, .scarpa3, img{
-   
-}
+
 p{
     color: rgb(238, 255, 1);
     margin-top: 165px;
@@ -48,17 +45,18 @@ p{
 }
 
 li{
+    display: inline-block;
     border-radius: 50px;
     background-color: white;
     padding: 8px;
     width: 36px;
     height: 36px;
     text-align: center;
-    z-index: 99;
-    position: fixed;
-
 }
 
 .cont{
-    margin-left: 90%;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 99;
 }
